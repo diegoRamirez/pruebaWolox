@@ -22,7 +22,7 @@ El proyecto cuenta con 33 escenarios de prueba distribuidos en los siguientes ar
 
 **Escenario:** Validar que en los campos firstName y lastName no se permitan caracteres numéricos.
 
-=====================================================================================
+===========================================================================
 
 **Los escenarios de Login incluyen:**
 
@@ -30,7 +30,7 @@ El proyecto cuenta con 33 escenarios de prueba distribuidos en los siguientes ar
 un token de autenticación, el atributo user_id en el body del response y que dicho atributo cuente con el formato especificado en los requerimientos. En este escenario también se 
 valida que se pueda hacer login con los dos roles de usuario que maneja el sistema (Admin, Regular).
 
-======================================================================================
+============================================================================
 
 **Los escenarios de listar usuarios incluyen:**
 
@@ -45,7 +45,7 @@ Regular: Puede ver solo los usuarios regulares.
 **Escenario:** Validar que no acepte un token falso. En este escenario se valida que al ejecutar el servicio de listar usuarios, utilizando un token de autenticación diferente al generado en el login, 
 se retorne un mensaje de error y no se permita retornar el listado de usuarios. Este escenario es evaluado con rol de administrador y con rol de regular.
 
-============================================================================================
+==================================================================================
 
 **Los escenarios de listar fotos de un album incluyen:**
 
@@ -55,7 +55,7 @@ Además se verifica que el formato de los objetos de respuesta sea el especifica
 **Escenario:** Validar que no acepte un token falso. En este escenario se valida que al ejecutar el servicio de listar fotos de un album, utilizando un token de autenticación diferente al generado en el login, 
 se retorne un mensaje de error y no se permita retornar el listado de usuarios. Este escenario es evaluado con rol de administrador y con rol de regular.
 
-============================================================================================
+==================================================================================
 
 **Los escenarios de listar albumes incluyen:**
 
@@ -65,7 +65,7 @@ Además se verifica que el formato de los objetos de respuesta sea el especifica
 **Escenario:** Validar que no acepte un token falso. En este escenario se valida que al ejecutar el servicio de listar albumes, utilizando un token de autenticación diferente al generado en el login, 
 se retorne un mensaje de error y no se permita retornar el listado de usuarios. Este escenario es evaluado con rol de administrador y con rol de regular.
 
-============================================================================================
+==================================================================================
 
 **Los escenarios de invalidar sesiones incluyen:**
 
@@ -76,7 +76,7 @@ se retorne un mensaje de error y no se permita retornar el listado de usuarios. 
 **Escenario:** Validar que no acepte un token falso. En este escenario se valida que al ejecutar el servicio de invalidar sesion, utilizando un token de autenticación diferente al generado en el login, 
 se retorne un mensaje de error y no se permita invalidar la sesion.
 
-==========================================================================================
+================================================================================
 
 **Los escenarios de comprar un album incluyen:**
 
@@ -89,7 +89,7 @@ se retorne un mensaje de error. Este escenario es evaluado con rol de administra
 **Escenario:** Validar que no acepte comprar dos veces el mismo album con el mismo usuario. En este escenario se valida que un usuario no pueda comprar dos veces el mismo album, verificando que retorna un mensaje de error.
 Este escenario se valida con los dos roles estipulados en el requerimiento (Admin, Regular).
 
-==========================================================================================
+================================================================================
 
 **Los escenarios de albumes comprados incluyen:**
 
@@ -119,7 +119,7 @@ intellij idea(O cualquier otro IDE)
 
 ------------------------------------------------------------------------------------------
 
-------------------------------------------------------------------------------------------
+
 EJECUCIÓN
 ------------------------------------------------------------------------------------------
 El proyecto cuenta con un test runner por cada servicio automatizado, de manera que se puedan ejecutar de manera independiente:
