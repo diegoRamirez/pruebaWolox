@@ -1,2 +1,14 @@
-package co.com.wolox.naiofy.test.runner;public class TestRunnerRegistro {
+package co.com.wolox.naiofy.test.runner;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = {"src/test/resources/features/registro.feature"}
+        , glue = {"co/com/wolox/naiofy/test/stepdefinitions"}
+        , plugin = {"pretty", "html:target/cucumberReport.html", "json:target/TestRunnerRegistro.json"
+})
+public class
+TestRunnerRegistro {
 }

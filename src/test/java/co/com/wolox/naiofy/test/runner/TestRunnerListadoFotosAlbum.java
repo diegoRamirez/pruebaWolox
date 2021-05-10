@@ -1,2 +1,14 @@
-package co.com.wolox.naiofy.test.runner;public class TestRunnerListadoFotosAlbum {
+package co.com.wolox.naiofy.test.runner;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = {"src/test/resources/features/listadoFotosAlbum.feature"}
+        , glue = {"co/com/wolox/naiofy/test/stepdefinitions"}
+        , plugin = {"pretty", "html:target/cucumberReport.html", "json:target/TestRunnerListadoFotosAlbum.json"
+})
+public class
+TestRunnerListadoFotosAlbum {
 }
