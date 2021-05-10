@@ -105,6 +105,18 @@ Este escenario se valida con los dos roles estipulados en el requerimiento (Admi
 **Escenario:** Validar que retorne todos los albumes comprados. En este escenario se valida que el servicio de retornar todos los albumes comprados por el usuario.
 Este escenario se valida con los dos roles estipulados en el requerimiento (Admin, Regular).
 
+------------------------------------------------------------------------------------------
+CREDENCIALES
+------------------------------------------------------------------------------------------
+En la carpeta del proyecto se encuentra un archivo de propiedades donde se encuentran las credenciales y userID de un usuario admin y un usuario regular con
+los cuales se realizan las pruebas.
+
+En caso de necesitar realizar estas pruebas con un usuario diferente, basta con ir a este archivo y modificar las propiedades que sea necesario.
+
+El archivo se enecuentra en la siguente ruta dentro de la carpeta del proyecto:
+
+* src/test/resources/configuration.properties
+
 
 ------------------------------------------------------------------------------------------
 AMBIENTE
