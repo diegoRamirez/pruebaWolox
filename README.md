@@ -153,19 +153,14 @@ El proyecto cuenta con un test runner por cada servicio automatizado, de manera 
 * src/test/java/co/com/wolox/naiofy/test/runner/TestRunnerAlbumesComprados.java
 
 
-También se cuenta con un test runner que ejecuta todos los escenarios
-
-* src/test/java/co/com/wolox/naiofy/test/runner/TestRunnerAll.java
-
-
 -----------------------------------------------------------------------------------
 REPORTES
 -----------------------------------------------------------------------------------
 
-Al ejecutar la automatización, segenerará un reporte de cucumber donde se pueden apreciar los escenarios pasados y los fallidos.
+Al ejecutar la automatización, se generará un reporte de cucumber donde se pueden apreciar los escenarios pasados y los fallidos.
 
 Este reporte podrá ser observado en cualquier navegador y quedará alojado en la carpeta del proyecto en el siguiente path:
 
-* target/cucumberReport.html
+* target/cucumberReportAll.html
 
 
