@@ -152,6 +152,7 @@ El proyecto cuenta con un test runner por cada servicio automatizado, de manera 
 
 * src/test/java/co/com/wolox/naiofy/test/runner/TestRunnerAlbumesComprados.java
 
+Para ejecutar el proyecto desde una terminal windows se puede utilizar el comando **gradlew.bat clean test**
 
 -----------------------------------------------------------------------------------
 REPORTES
